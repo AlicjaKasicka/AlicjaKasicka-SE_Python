@@ -17,9 +17,9 @@ Project is using:
 
 ## Setup
 To run this project, save the "app.py" file and run it using command line (after creating virtual environment):
-$ flask run
+* $ flask run
 Then you will be asked to input a csv file, so input a filepath of a file you want the app to analyze.
-$ C:\Users\Alicja\Desktop\Nauka\deepsense\api\titanic.csv
+* $ C:\Users\Alicja\Desktop\Nauka\deepsense\api\titanic.csv
 
 ## After running the project
 The output of a setup is a web address, you can access each statistics by using different endpoints:
