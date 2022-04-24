@@ -33,9 +33,6 @@ class File():
         self.columns = columns
         self.column_info = column_info
 
-    #def get_dict(self):
-        #return (f"id: {self.id}, rows: {self.rows}, columns: {self.columns}, column info: {self.column_info}")
-
 def readCSV(file_path = FILE_PATH):
     df = pd.read_csv(file_path, on_bad_lines="skip")
     columns = []
