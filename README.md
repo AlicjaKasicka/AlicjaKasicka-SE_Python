@@ -16,7 +16,7 @@ Project is using:
 * Numpy library
 
 ## Setup
-To run this project, save the "app.py" file and run it using command line (after creating virtual environment- in Windows: $ venv\Scripts\activate):  
+To run this project, save the "app.py" file and run it using command line (after creating virtual environment- in Windows: $venv\Scripts\activate):  
 $ flask run  
 Then you will be asked to input a csv file, so input a filepath of a file you want the app to analyze.  
 $ C:\Users\Alicja\Desktop\Nauka\deepsense\api\titanic.csv
