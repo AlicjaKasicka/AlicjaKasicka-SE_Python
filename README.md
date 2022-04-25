@@ -28,6 +28,8 @@ The output of a setup is a web address, you can access each statistics by using 
 * '/columns' - number of columns
 * '/rows' - number of rows
 * '/columnInfo' - information about every column of a file (its name, minimum and maximum value, mean, 10th and 90th percentile and percentage of missing values)
+* '/columnInfo/<ID>' - information about a column with a certain ID
+* '/columnInfo/<ID>/<statistics>' - information about a statistics (minimum, maximum, mean, 10th, 90th, %missing) of a certain column
 
 ## State of the project
 Since it was my first time writing a REST API, it probably needs some improvements. I will work on them as my knowledge progresses.
